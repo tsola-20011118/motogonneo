@@ -62,72 +62,12 @@ $('.header-contact').hover(function () {
     }
 });
 
-$(".garalley1").hover(function(){
-    $(".garalley1 div").fadeIn()
-},
-    function () {
-        $(".garalley1 div").fadeOut()
-    })
+for (let step = 1; step < 1000; step++) {
+    $(".garalley" + step).hover(function () {
+        $(".garalley" + step +" div").fadeIn()
+    },
+        function () {
+            $(".garalley" + step + " div").fadeOut()
+        })
+}
 
-$(".garalley2").hover(function () {
-    $(".garalley2 div").fadeIn()
-},
-    function () {
-        $(".garalley2 div").fadeOut()
-    })
-
-$(".garalley3").hover(function () {
-    $(".garalley3 div").fadeIn()
-},
-    function () {
-        $(".garalley3 div").fadeOut()
-    })
-
-$(".garalley4").hover(function () {
-    $(".garalley4 div").fadeIn()
-},
-    function () {
-        $(".garalley4 div").fadeOut()
-    })
-
-$(".garalley5").hover(function () {
-    $(".garalley5 div").fadeIn()
-},
-    function () {
-        $(".garalley5 div").fadeOut()
-    })
-
-$(".garalley6").hover(function () {
-    $(".garalley6 div").fadeIn()
-},
-    function () {
-        $(".garalley6 div").fadeOut()
-    })
-
-$(".garalley7").hover(function () {
-    $(".garalley7 div").fadeIn()
-},
-    function () {
-        $(".garalley7 div").fadeOut()
-    })
-
-$(".garalley8").hover(function () {
-    $(".garalley8 div").fadeIn()
-},
-    function () {
-        $(".garalley8 div").fadeOut()
-    })
-
-$(".garalley9").hover(function () {
-    $(".garalley9 div").fadeIn()
-},
-    function () {
-        $(".garalley9 div").fadeOut()
-    })
-
-$(".garalley10").hover(function () {
-    $(".garalley10 div").fadeIn()
-},
-    function () {
-        $(".garalley10 div").fadeOut()
-    })
