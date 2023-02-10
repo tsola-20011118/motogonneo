@@ -1,18 +1,3 @@
-
-// $('.top-image').click(function () {
-//     var le = $(this).offset().left - window.innerWidth;
-//     var leto;
-//     if (le == window.innerWidth * -5) {
-//         leto = 0;
-//     } else {
-//         leto = $(this).offset().left - window.innerWidth
-//     }
-//     $(this).animate({
-//         left: leto
-//     });
-// });
-
-
 $('.header-apparel').hover(function () {
     if ($("#top-image-apparel").hasClass("current-img") == false) {
         $(".current-img").fadeOut(500)
